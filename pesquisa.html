@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Hello, World!</title>
+   <link rel="stylesheet" type="text/css" href="pesquisa.css">
+</head>
+<body>
+  <form action="formulario">
+    <div class="comeco">
+      <h1>Survey form</h1>
+      <p>Let us know how we can improve freeCodeCamp</p>
+    </div> <br>
+    <div class="nome"> Name: <br>
+      <input type="text" id="Name" required placeholder="Enter you name">
+    </div> <br>
+    <div class="email"> Email: <br>
+      <input type="Email" id="Email" required placeholder="Enter you Email">
+    </div> <br>
+    <div class="idade"> Age: <br>
+      <input type="number" id="age" required placeholder="Age" min="1" max="200"> 
+    </div> <br>
+    <div class="descricao"> Which option best describes your curret role? <br>
+      <select>
+        <option value="student">Student</option>
+        <option value="Unemployed">Unemployed</option>
+        <option value="housewife">housewife</option>
+        <option value="employee">employee</option>
+      </select>
+    </div> <br>
+    <div class="escolha"> How likely is that you would recommend freeCodeCamp to a friend? <br>
+      <input type="radio" name="opcao" value="1"> Definitely <br> 
+      <input type="radio" name="opcao" value="2"> Maybe <br> 
+      <input type="radio" name="opcao" value="3"> Not sure <br>
+    </div> <br>
+    <div class="selecao"> What do you like most in FCC: <br>
+      <select>
+        <option value="select an opnion">Select an opnion</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+      </select>
+    </div> <br>
+    <div class="check"> Things that should be improved in the future (check all that apply): <br>
+      <input type="checkbox" id="front"> Front-end projects <br>
+      <input type="checkbox" id="back"> Back- end projects <br>
+      <input type="checkbox" id="data"> Data visualization
+    </div>
+  </form>
+</body>
+</html>
