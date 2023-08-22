@@ -1,0 +1,22 @@
+img {
+ max-width: 100%;
+ height: auto;
+ display: block;
+ margin-left: 30px;
+}
+
+p.legenda {
+  margin-left: 30px;
+ font-style: italic;
+  color: gray;
+  line-height: 0;
+}
+
+ul {
+ list-style-type: square;
+ margin-left: 20px;
+}
+
+p.descrição, p.site{
+ font-weight: bold;
+}
