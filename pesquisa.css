@@ -1,0 +1,13 @@
+.comeco{
+  text-align: center;
+  background-color: mediumpurple;
+  border: 1px solid blue;
+   line-height: 15px;
+  
+}
+body {
+  background-color: lavender;
+  border: 2px solid black;
+  text-align: center;
+  font-size: 20px;
+}
