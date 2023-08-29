@@ -1,0 +1,35 @@
+.table-container {
+    width: 100%;
+    display: table;
+    border-collapse: collapse;
+    text-align: center; 
+    
+  }
+  
+.table {
+    display: table-row;
+  }
+  
+.td{
+    display: table-cell;
+    border-style: dotted none dotted none;
+    border-color: gray;
+    padding: 5px;
+  
+  }
+  
+.header {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+
+
+
+#clube {
+  text-align: justify;
+}
+
+#linha1 {
+  border-style: solid none solid none;
+  border-color: grey;
+}
