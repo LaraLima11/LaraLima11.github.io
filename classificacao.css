@@ -2,8 +2,7 @@
     width: 100%;
     display: table;
     border-collapse: collapse;
-    text-align: center; 
-    
+    background-color: Linen;
   }
   
 .table {
@@ -13,23 +12,28 @@
 .td{
     display: table-cell;
     border-style: dotted none dotted none;
-    border-color: gray;
+    border-color: rgb(204, 203, 203);
     padding: 5px;
-  
   }
   
-.header {
-    background-color: #f2f2f2;
-    font-weight: bold;
-  }
-
-
 
 #clube {
   text-align: justify;
+ 
 }
 
 #linha1 {
   border-style: solid none solid none;
-  border-color: grey;
+  border-color: mediumslateblue;
+  background-color: mediumpurple;
+  font-weight: bold;
 }
+
+.li {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
