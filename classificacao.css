@@ -1,5 +1,5 @@
 .table-container {
-    width: 100%;
+    width: 50%;
     display: table;
     border-collapse: collapse;
     background-color: Linen;
@@ -19,6 +19,7 @@
 
 #clube {
   text-align: justify;
+  width: 15%;
  
 }
 
@@ -35,5 +36,4 @@
     text-align: center;
     border-radius: 10px;
 }
-
 
